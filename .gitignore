@@ -1,0 +1,71 @@
+# C++ build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled executable (your game)
+game
+
+# IDE specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj/
+*.xcworkspace/
+.vs/
+CMakeSettings.json
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dependency directories (if you have them locally)
+vendor/
+libs/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# raylib specific (if applicable)
+libraylib.a
+raylib/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Logs
+*.log
+
+# Generated documentation
+doc/
+doxygen/
+
